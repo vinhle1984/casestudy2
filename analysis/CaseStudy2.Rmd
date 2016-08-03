@@ -488,4 +488,10 @@ write.csv(Model_hw_2_PointForecast,file='Model_hw_2_PointForecast.csv')
 
 
 #Conclusion
-The Holt-Winter’s multiplicative seasonal method was found to be best method for predicting Chulwalar’s exports. This make sense because the data shows that the exports were very seasonal and has a high correlation with national holidays. All other models does not account for the seasonality change. 
+The Holt-Winter’s multiplicative seasonal method was found to be best method for predicting Chulwalar’s exports. This make sense because the data shows that the exports were very seasonal and has a high correlation with national holidays. All other models does not account for the seasonality change. Holt-Winter's additive seasonal is another good choice however I decided to go with the multiplicative seasonal model because overall Error measures are lower. 
+
+Forecast for selected model
+```{r}
+Model_hw_2
+```
+
